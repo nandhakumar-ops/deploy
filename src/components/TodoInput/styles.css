@@ -1,0 +1,30 @@
+.todoinput-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 3em;
+}
+
+.todoinput-input {
+	color: var(--color-b);
+	font-size: calc(2.2vh + 0.5rem);
+	background-color: var(--color-c);
+	padding: 4px 4px;
+	border-style: none;
+	border-radius: 4px;
+}
+
+.todoinput-submit-button {
+	color: var(--color-e);
+	border-style: none;
+}
+
+i {
+	background-color: transparent;
+}
+
+.todoinput-submit-button:hover {
+	color: var(--color-e-hover);
+	border-style: none;
+}
